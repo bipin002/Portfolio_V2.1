@@ -124,12 +124,45 @@ h1, h2, h3, h4, h5, h6 {
 /* Responsive adjustments */
 @media (max-width: 767px) {
     .hero-section {
+        /* background-image: url('Images/image/pexels-danbuilds-633409 (2).jpg'); */
+        background-position: center center;
+        background-size: cover;
         padding-top: 80px; /* Less padding on smaller screens */
+        min-height: 65vh; 
+        min-inline-size: max-content;
+        min-width: max-content;
     }
 
     .hero-section .display-10 {
         font-size: 1.5rem; /* Adjust font size for smaller screens */
     }
+
+    .hero-section h2 {
+        font-size: 1.75rem; /* Adjust font size for mobile view */
+    }
+    
+    .hero-section p {
+        font-size: 1rem; /* Adjust paragraph size for mobile view */
+    }
+    
+    .hero-section .btn {
+        font-size: 0.9rem; /* Adjust button size for mobile view */
+    }
+
+    .d-md-none {
+        display: block; /* Show image above content on mobile */
+    }
+
+    .d-md-block {
+        display: none; /* Hide desktop image on mobile */
+    }
+
+    .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%; /* Ensure two boxes per row on mobile */
+    }
+
+
     .contact-message {
         font-size: 1rem;
     }
