@@ -127,10 +127,10 @@ h1, h2, h3, h4, h5, h6 {
         /* background-image: url('Images/image/pexels-danbuilds-633409 (2).jpg'); */
         background-position: center center;
         background-size: cover;
-        padding-top: 80px; /* Less padding on smaller screens */
+        /* padding-top: 80px;  */
         min-height: 65vh; 
-        min-inline-size: max-content;
-        min-width: max-content;
+        min-inline-size: auto;
+        min-width: auto;
     }
 
     .hero-section .display-10 {
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .hero-section p {
-        font-size: 1rem; /* Adjust paragraph size for mobile view */
+        font-size: .9rem; /* Adjust paragraph size for mobile view */
     }
     
     .hero-section .btn {
@@ -158,10 +158,14 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .col-6 {
-        flex: 0 0 50%;
-        max-width: 50%; /* Ensure two boxes per row on mobile */
+        flex: 0 0 100%;
+        max-width: 100%; /* Ensure two boxes per row on mobile */
     }
-
+ 
+ .skills-section .col-md-4 {
+    flex: 0 0 50%; 
+    max-width: 50%;
+}
 
     .contact-message {
         font-size: 1rem;
