@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .hero-section p {
-        font-size: .9rem; /* Adjust paragraph size for mobile view */
+        font-size: 0.9rem; /* Adjust paragraph size for mobile view */
     }
     
     .hero-section .btn {
